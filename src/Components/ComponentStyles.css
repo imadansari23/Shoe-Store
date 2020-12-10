@@ -27,3 +27,24 @@
     font-size: larger;
     color: white;
   }
+  .singleImg{
+    height:500px; 
+    width:500px; 
+    margin-top:20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .singleImg{
+      width:100%;
+    }
+    .navbar{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .navbar .navli{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }

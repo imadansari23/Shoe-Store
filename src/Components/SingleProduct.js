@@ -46,7 +46,7 @@ function SingleProduct() {
     return (
         <div style={{marginTop:'30px'}}>
             <h1>YOUR PRODUCT</h1>
-            <img style={{height:'500px', width:'500px', marginTop:'20px'}} src={product.img} alt="Not Found" />
+            <img className="singleImg" src={product.img} alt="Not Found" />
             <h1 style={{marginTop:'20px'}}>{product.name}</h1>
         </div>
     )
