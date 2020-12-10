@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <div className="navbar">
-            <h2 style={{ color: "white" }}>Shoe Store</h2>
+            <Link style={{textDecoration:'none'}} to="/"><h2 style={{ color: "white" }}>Shoe Store</h2></Link>
             <ul className="nav_links">
-                <Link className="navLi" to="/" >HOME</Link>
-                <Link className="navLi" to="products" >PRODUCTS</Link>
-                <Link className="navLi" to="cart" >CART(0)</Link>
+                <Link style={{textDecoration:'none'}} className="navLi" to="/" >HOME</Link>
+                <Link style={{textDecoration:'none'}} className="navLi" to="products" >PRODUCTS</Link>
             </ul>
         </div>
     )
